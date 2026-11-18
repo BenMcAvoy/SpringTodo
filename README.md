@@ -20,9 +20,9 @@ On Windows, run `mvnw.cmd spring-boot:run`. The page is served by the Spring app
 
 ## API
 
-- `GET /todos` — list todos.
-- `POST /todos` — create a todo from a JSON body containing `title`.
-- `POST /todos/{id}/complete` — update completion state.
-- `DELETE /todos/{id}` — remove a todo.
+- `GET /todos` - list todos.
+- `POST /todos` - create a todo from a JSON body containing `title`.
+- `POST /todos/{id}/complete` - update completion state.
+- `DELETE /todos/{id}` - remove a todo.
 
 This is a learning project and its database configuration is intended for local development.
